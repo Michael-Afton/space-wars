@@ -1,0 +1,12 @@
+let mySprite: Sprite = null
+controller.moveSprite(mySprite)
+mySprite = sprites.create(assets.image`William Afton`, SpriteKind.Enemy)
+mySprite.setPosition(67, 34)
+let mySprite2 = sprites.create(assets.image`Space invader`, SpriteKind.Projectile)
+mySprite.setPosition(76, 33)
+let mySprite3 = sprites.create(assets.image`Michael Afton`, SpriteKind.Player)
+mySprite.setPosition(63, 55)
+let mySprite4 = sprites.create(assets.image`Chicken`, SpriteKind.Food)
+mySprite.setPosition(6, 102)
+let mySprite5 = sprites.create(assets.image`Sussybaka`, SpriteKind.Player)
+mySprite.setPosition(143, 5)
